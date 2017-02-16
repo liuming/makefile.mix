@@ -9,10 +9,10 @@ defmodule Makefile.Mixfile do
      start_permanent: Mix.env == :prod,
      description: "General Makefile targets for an Elixir application",
      package: [
-       name: 'makefile',
-       licenses: ['MIT'],
-       maintainers: ['Ming Liu'],
-       links: %{'GitHub' => 'https://github.com/liuming/makefile.mix'}
+       name: :makefile,
+       licenses: ["MIT"],
+       maintainers: ["Ming Liu"],
+       links: %{"GitHub" => "https://github.com/liuming/makefile.mix"}
      ],
      deps: deps()]
   end
