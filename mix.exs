@@ -36,7 +36,7 @@ defmodule Makefile.Mixfile do
      name: 'makefile',
      licenses: ['MIT'],
      maintainers: ['Ming Liu'],
-     links: %w{'GitHub' => 'https://github.com/liuming/makefile.mix'}
+     links: %{'GitHub' => 'https://github.com/liuming/makefile.mix'}
      ]
   end
 end
