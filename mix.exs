@@ -7,13 +7,13 @@ defmodule Makefile.Mixfile do
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     description: 'General Makefile targets for an Elixir application'
+     description: 'General Makefile targets for an Elixir application',
      package: [
        name: 'makefile',
        licenses: ['MIT'],
        maintainers: ['Ming Liu'],
        links: %{'GitHub' => 'https://github.com/liuming/makefile.mix'}
-     ]
+     ],
      deps: deps()]
   end
 
