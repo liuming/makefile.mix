@@ -1,6 +1,6 @@
 # Makefile
 
-**TODO: Add description**
+General Makefile targets for an Elixir application
 
 ## Installation
 

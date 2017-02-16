@@ -30,4 +30,13 @@ defmodule Makefile.Mixfile do
   defp deps do
     []
   end
+
+  defp package do
+     [
+     name: 'makefile',
+     licenses: ['MIT'],
+     maintainers: ['Ming Liu'],
+     links: %w{'GitHub' => 'https://github.com/liuming/makefile.mix'}
+     ]
+  end
 end
