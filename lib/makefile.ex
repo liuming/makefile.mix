@@ -4,15 +4,20 @@ defmodule Makefile do
   """
 
   @doc """
-  Hello world.
 
   ## Examples
 
-      iex> Makefile.hello
-      :world
+      iex> Makefile.generate
+      "PATH_TO_MAKEFILE"
+
+  > mix makefile.generate
 
   """
-  def hello do
-    :world
+
+  @template File.read!('lib/makefile.elixir.mk')
+
+  def generate do
+    @template
   end
+
 end
