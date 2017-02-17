@@ -3,7 +3,6 @@ defmodule Mix.Tasks.Makefile.Generate do
 
   @shortdoc "Generate a Mailefile.elixir.mk template"
   def run(_) do
-    #base_path = File.cwd!
     path = Path.relative_to_cwd('Mailefile.elixir.mk')
     IO.puts path
     File.write(path, Makefile.generate)
